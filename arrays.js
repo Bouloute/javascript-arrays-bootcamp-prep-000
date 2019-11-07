@@ -61,14 +61,14 @@ function removeElementFromBeginningOfArray(array){
 //Removing an element at the end of an array___________________
 function destructivelyRemoveElementFromEndOfArray(array){
   
-  array.unshift()
+  array.shift()
   
   return array
 }
 
 function removeElementFromEndOfArray(array){
   
-  array = array.slice(2)
+//  array = array.slice()
   
   return array
 }
