@@ -43,4 +43,6 @@ function accessElementInArray(array, index){
 
 
 //Removing an Array___________________________________________
-function d
+function ddestructivelyRemoveElementFromBeginningOfArray(array){
+  
+}
