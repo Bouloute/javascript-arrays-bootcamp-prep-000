@@ -42,7 +42,12 @@ function accessElementInArray(array, index){
 }
 
 
-//Removing an Array___________________________________________
-function ddestructivelyRemoveElementFromBeginningOfArray(array){
+//Removing an element in an array_____________________________
+function destructivelyRemoveElementFromBeginningOfArray(array){
   
+  array.shift()
+  
+  return array
 }
+
+function
