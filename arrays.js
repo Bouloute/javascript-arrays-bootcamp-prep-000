@@ -52,7 +52,7 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
 
 function removeElementFromBeginningOfArray(array){
   
-  var slicedArray = array.slice(1)
+  array.slice(1)
   
   return array
 }
