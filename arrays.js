@@ -70,5 +70,5 @@ function removeElementFromEndOfArray(array){
   
   var test = array.slice(-1)
   
-  return test
+  return array
 }
