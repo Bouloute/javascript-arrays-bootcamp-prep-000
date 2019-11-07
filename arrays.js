@@ -50,4 +50,9 @@ function destructivelyRemoveElementFromBeginningOfArray(array){
   return array
 }
 
-function
+function removeElementFromBeginningOfArray(array){
+  
+  var slicedArray = array.slice(1)
+  
+  return array
+}
